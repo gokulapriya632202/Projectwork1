@@ -1,29 +1,37 @@
 ## FARM2FUTURE AI-DRIVEN PRICE PREDICTION FOR ESSENTIAL COMMODITIES
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Farm2Future is an AI-driven commodity price forecasting system that leverages time-series and deep learning models to predict future retail prices of essential agricultural commodities across Indian states.
+By integrating ARIMA, Prophet, and LSTM models into a stacked ensemble framework, it provides data-driven price insights to support farmers, traders, and policymakers in informed decision-making.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Farm2Future is an AI-based price forecasting system designed to predict daily retail prices of essential agricultural commodities across Indian States and Union Territories. The project focuses on modeling historical price trends using officially recorded government price data to address real-world price volatility affecting farmers, consumers, and policymakers.
+
+The system uses a hybrid forecasting approach by combining ARIMA, Prophet, and LSTM models to capture linear trends, seasonality, and nonlinear temporal patterns in commodity prices. Predictions from individual models are integrated using a stacked ensemble strategy to improve forecast stability and reduce model-specific bias.
+
+The dataset spans January 2024 to October 2025 and includes daily prices of cereals, pulses, edible oils, dairy products, and vegetables. A time-aware train–test split is applied to ensure realistic forecasting, and model performance is evaluated using standard error metrics such as MSE, MAE, RMSE.
+
+Farm2Future is built as a research-oriented project for experimentation with time-series forecasting techniques and serves as a practical reference for applying ensemble learning to real-world agricultural price data.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+- Multi-Commodity Price Forecasting
+- Stacked Ensemble Prediction
+- Time-Aware Training and Testing Split
+- Daily Time-Series Forecasting
+- Evaluation with Standard Metrics
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
+* Operating System: 64-bit Windows / Linux / macOS
+* Programming Language: Python 3.8 or higher
+* Frameworks & Libraries: ARIMA (statsmodels), Prophet, TensorFlow/Keras (LSTM)
+* Data Processing: Pandas, NumPy
+* Visualization: Matplotlib
+* Evaluation Tools: Scikit-learn (MAE, RMSE, R²)
+* Dataset Format: Excel (.xlsx) using OpenPyXL
+* Execution Platform: Google Colab or Jupyter Notebook
+* Version Control: Git
+* Hardware: Minimum 8 GB RAM (GPU optional)
+  
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
