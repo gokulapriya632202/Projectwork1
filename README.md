@@ -37,31 +37,64 @@ Farm2Future is built as a research-oriented project for experimentation with tim
 
 ![WhatsApp Image 2025-12-18 at 16 41 35_ef26c0f5](https://github.com/user-attachments/assets/d830043b-02a6-43dc-8195-cca15baa7835)
 
+The system follows a modular forecasting architecture where daily commodity price data is first collected, cleaned, and transformed into time-series format. Individual forecasting models—ARIMA for linear trends, Prophet for seasonality, and LSTM for nonlinear temporal patterns—are trained independently on historical data. The predictions from these models are then combined using a stacked ensemble approach to generate a more robust and accurate final price forecast, which is evaluated and visualized for decision-making.
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Price Prediction for All commodities 
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="802" height="389" alt="image" src="https://github.com/user-attachments/assets/d98e1d39-f62d-4109-848f-e6414a667474" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+<img width="823" height="410" alt="image" src="https://github.com/user-attachments/assets/e38b7889-203e-4bf5-ad78-bc8a549f67ad" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<img width="801" height="397" alt="image" src="https://github.com/user-attachments/assets/27c87b70-40f9-4276-bbc1-bb1dd9fab974" />
 
+<img width="803" height="399" alt="image" src="https://github.com/user-attachments/assets/cac6a1bd-9ef4-4f75-ac33-45a9e0be0282" />
+
+<img width="809" height="394" alt="image" src="https://github.com/user-attachments/assets/cfacaf76-4cdd-4817-90a9-9e9a326e1474" />
+
+<img width="829" height="413" alt="image" src="https://github.com/user-attachments/assets/14690fd4-adcf-408c-9319-33ff9d1c9f27" />
+
+<img width="814" height="397" alt="image" src="https://github.com/user-attachments/assets/c5937d9c-8269-427c-be75-676e3e71b2ed" />
+
+<img width="816" height="399" alt="image" src="https://github.com/user-attachments/assets/b49cd654-276e-47e4-9839-ff83976fa1da" />
+
+<img width="820" height="402" alt="image" src="https://github.com/user-attachments/assets/ec3a216e-6d66-4988-91c2-c9b08989c4ff" />
+
+<img width="821" height="406" alt="image" src="https://github.com/user-attachments/assets/6a42b090-4a79-4fd4-9da7-4c7331448701" />
+
+<img width="859" height="415" alt="image" src="https://github.com/user-attachments/assets/18b7be4f-84ab-4484-9691-02e8b12d486c" />
+
+<img width="803" height="394" alt="image" src="https://github.com/user-attachments/assets/7dcc2ab3-78f8-49c9-87ab-6f1ad1ca1dd1" />
+
+<img width="818" height="399" alt="image" src="https://github.com/user-attachments/assets/0e3aa004-1f69-4116-928f-76d1a6d492ad" />
+
+<img width="842" height="416" alt="image" src="https://github.com/user-attachments/assets/458d2b09-6387-4792-80d8-e249c6691b7b" />
+
+<img width="841" height="413" alt="image" src="https://github.com/user-attachments/assets/db0b4077-9a2f-4392-96d4-c2964b7d1391" />
+
+<img width="834" height="414" alt="image" src="https://github.com/user-attachments/assets/6fd57c16-3297-4990-b82f-8be3b7df8d6b" />
+
+<img width="849" height="416" alt="image" src="https://github.com/user-attachments/assets/0af9fb9a-2a15-461a-bb87-73e520ea7786" />
+
+<img width="842" height="410" alt="image" src="https://github.com/user-attachments/assets/f94747fe-cf1a-47d0-b7ec-f1ef2d205e7a" />
+
+<img width="852" height="427" alt="image" src="https://github.com/user-attachments/assets/ec6713f4-4fcc-4ccd-a408-ec0047938e93" />
+
+<img width="855" height="423" alt="image" src="https://github.com/user-attachments/assets/7b620ded-b7ba-4205-8c7c-0a1e60af3c58" />
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The proposed FARM2FUTURE system successfully forecasted short- and medium-term prices of essential commodities across Indian States using a stacked ensemble of ARIMA, Prophet, and LSTM models. Individual models captured complementary patterns—ARIMA handled short-term linear trends, Prophet modeled seasonality, and LSTM learned nonlinear temporal dependencies. The ensemble consistently reduced forecasting error compared to standalone models, achieving lower MAE and RMSE on the test period (October 2025). Visual comparisons between actual and predicted prices showed smoother and more stable forecasts with reduced volatility and fewer unrealistic price jumps. Accurate commodity price forecasting supports informed decision-making for farmers, traders, and policymakers by reducing uncertainty in agricultural markets. The system can aid farmers in planning crop sales, help governments anticipate price fluctuations and inflationary pressures, and improve market transparency for consumers. By relying solely on historical price data and an ensemble learning strategy, FARM2FUTURE provides a scalable, data-driven solution for strengthening food security and price stability in agriculture-dependent economies.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
-
-
+1. 	Manogna et al., “Enhancing Agricultural Commodity Price Forecasting with Deep Learning,” 2025.
+2. 	Ray et al., An ARIMA-LSTM Model for Predicting Volatile Agricultural Prices, 2023.
+3. 	Dionissopoulos et al., Predicting Agricultural Product and Supplies Prices Using Artificial Intelligence, 2024.
+4.  Zherlitsyn et al., Enhancing Wheat Price Forecasting Accuracy through Prophet-ML Hybrid, 2023.
+5.  Sherly et al., A Hybrid Approach to Time Series Forecasting: Integrating ARIMA and LSTM, 2024.
+6.	Hochreiter & Schmidhuber, Long Short-Term Memory, 1997.
+7.	Prophet Documentation and Applications, Facebook/Meta, 2020.
+8.	Dionissopoulos et al., Hybrid Forecasting of Agricultural Commodity Prices: Integrating VAR and LSTM Models, 2025.
 
