@@ -1,4 +1,4 @@
-## Title of the Project
+## FARM2FUTURE AI-DRIVEN PRICE PREDICTION FOR ESSENTIAL COMMODITIES
 Small description about the project like one below
 The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
 
@@ -27,7 +27,7 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![WhatsApp Image 2025-12-18 at 16 41 35_ef26c0f5](https://github.com/user-attachments/assets/d830043b-02a6-43dc-8195-cca15baa7835)
 
 
 ## Output
